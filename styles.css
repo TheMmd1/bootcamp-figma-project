@@ -1,0 +1,604 @@
+/* btns */
+
+.btn {
+    padding: 18px 24px 18px 24px;
+    border: 1px solid #1E3240;
+    font-family: MuliMush;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+
+}
+
+ .high-opp {
+    background: #1E3240;
+    color: white;
+}
+
+ .low-opp {
+    background: #C3DAF2;
+}
+
+/* inputs & forms*/
+
+input {
+    width: 225px;
+    height: 50px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #1E3240;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    padding-left: 12px;
+}
+
+.form-btn {
+    width: 124px;
+    height: 53px;
+    padding: 18px 24px 18px 24px;
+    margin-top: 30px;
+}
+
+.email-text-span {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #BDBDBD;
+    position: relative;
+    top: -53px;
+    left: 140px;
+}
+
+.text-area-form {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+/* header */
+
+.first-page-container {
+    background: #C3DAF2;
+    width: 100%;
+    height: 800px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 23px;
+    margin: auto;
+    top: 44px;
+    left: 80px;
+    padding-top: 44px;
+}
+
+#header .logo-header {
+    width: 742px;
+}
+
+#header .navbar {
+    width: 458px;
+    height: 23px;
+    display: flex;
+    justify-content: end;
+}
+
+#header .navbar ul li {
+    display: inline;
+    margin-left: 77px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    text-align: left;
+}
+
+#header .navbar ul li:first-child {
+    margin-left: 0px;
+}
+
+#header .navbar ul li a {
+   color:#1E3240;
+   text-decoration: none;
+}
+
+/* LANDING PAGE */
+
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 733px;
+}
+
+.landing-page .info-landing {
+    width: 635px;
+    height: 370px;
+    gap: 24px;
+    opacity: 0px;  
+    margin-bottom: 240px;
+    margin-left: 204px;  
+}
+
+.landing-page .image-landing {
+    width: 618px;
+    height: 666px;
+}
+
+.landing-page .image-landing img {
+    width: 610px;
+    height: 666px;
+    left: 8px;
+    gap: 0px;
+    opacity: 0px;
+    angle: -0 deg;
+}
+
+.landing-page .info-landing .neveshte {
+    margin-bottom: 40px;
+}
+
+.landing-page .info-landing .neveshte h1 {
+    font-family: Mulish;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    text-align: left;
+    color: #1E3240;    
+}
+
+.landing-page .info-landing .neveshte p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #1E3240;
+    margin-top: 15px;
+}
+
+.landing-page .info-landing .btns {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 53px;
+}
+
+/* second frame */
+
+.second-frame {
+    width: 1110px;
+    height: 2,738px;
+    gap: 184px;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 87px;
+}
+
+/* awards */
+
+
+.second-frame .awards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-frame .awards .sec-frame-img {
+    width: 445px;
+    height: 500px;
+}
+
+.second-frame .awards .sec-frame-info {
+    width: 540px;
+    height: 280px;
+    gap: 40px;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-neveshte {
+    padding-bottom: 40px;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-neveshte h2 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #1E3240;
+    padding-bottom: 40px;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-neveshte p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-features {
+    display: flex;
+    justify-content: start;
+
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-features .sec-frame-features-boxes {
+    width: 146px;
+    height: 83px;
+    gap: 8px;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-features .sec-frame-features-boxes h4 {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: #AFD4E2;
+}
+
+.second-frame .awards .sec-frame-info .sec-frame-features .sec-frame-features-boxes p {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 57.6px;
+    text-align: left;
+    color: #1E3240;
+}
+
+/* ongoing projects */
+
+.ongoing-project {
+    padding-top: 170px;
+}
+
+.ongoing-project .heading {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 92px;
+    align-items: end;
+    padding-bottom: 75px;   
+}
+
+.ongoing-project .heading .heading-neveshte {
+    width: 540px;
+    height: 92px;
+    gap: 12px;
+}
+
+.ongoing-project .heading .heading-neveshte h2 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #1E3240;
+    padding-bottom: 15px;
+}
+
+.ongoing-project .heading .heading-neveshte p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.ongoing-project .heading .heading-icons {
+    width: 76px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ongoing-project .card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ongoing-project .card-container .cards {
+    width: 350px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ongoing-project .card-container .cards img {
+    width: 350px;
+    height: 450px;
+    z-index: 1;
+}
+
+.ongoing-project .card-container .cards .info-box {
+    width: 290px;
+    height: 80px;
+    top: 410px;
+    left: 30px;
+    z-index: 2;
+    background-color: white;
+    margin-top: -41px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.ongoing-project .card-container .cards .info-box .info-heading {
+    padding-bottom: 3px;
+}
+
+.ongoing-project .card-container .cards .info-box .info-heading h4 {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: #1E3240;
+}
+
+.ongoing-project .card-container .cards .info-box .icon-box {
+    display: flex;
+    justify-content: start;
+}
+
+.ongoing-project .card-container .cards .info-box .icon-box img {
+    width: 12px;
+    height: 12px;
+    top: 455px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 3px;
+    margin-left: -3px;
+}
+
+.ongoing-project .card-container .cards .info-box .icon-box p {
+    font-family: Mulish;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #1E3240;
+}
+
+/* comments */
+
+.comment-section {
+    padding-top: 170px;
+}
+
+.comment-section .comment-heading {
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.comment-section .comment-heading h2 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    color: #1E3240;
+    padding-bottom: 10px;
+}
+
+.comment-section .comment-heading p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: center;
+    color: #1E3240;
+}
+
+.comment-section .comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-section .comment .comment-img img {
+    width: 445px;
+    height: 350px;
+}
+
+.comment-section .comment .comment-paragraph {
+    width: 539px;
+    height: 264px;
+}
+
+.comment-section .comment .comment-paragraph img {
+    width: 50px;
+    height: 27.78px;
+    top: 43px;
+    left: 570px;
+    padding: 0.42px 0.04px 0.1px 0.69px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.comment-section .comment .comment-paragraph h3 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.16px;
+    text-align: left;
+    color: #1E3240;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.comment-section .comment .comment-paragraph .comment-mtn {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+    color: #1E3240;
+    padding-bottom: 15px;
+}
+
+.comment-section .comment .comment-paragraph .commentor-name{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: #1E3240;
+}
+
+.comment-section .comment .comment-paragraph .commentor-job {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #1E3240;
+}
+
+/* contact us */
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.contact-us .contact-img  img {
+    width: 445px;
+    height: 500px;
+}
+
+.contact-us .contact-form {
+    width: 540px;
+    padding-top: 24px;
+}
+
+.contact-us .contact-form h2 {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #1E3240;
+    padding-bottom: 5px;
+}
+
+.contact-us .contact-form p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.form-container {
+    margin-top: 35px;
+}
+
+/* footer */
+
+#footer {
+    width: 100%;
+    height: 384px;
+    background: #1E3240;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-cont {
+    width: 1110px;
+    height: 238px;
+    margin: auto;
+    padding-top: 7px;
+}
+
+#footer .footer-main-stuff {
+    width: 1110px;
+    height: 143px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-main-stuff .footer-logo {
+    padding-bottom: 17px;
+    width: 63px;
+    height: 23px;
+}
+
+#footer .footer-main-stuff .footer-icon-box {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#footer .footer-main-stuff .footer-icon-box p {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    text-align: left;
+    color: #BDBDBD;
+    padding-left: 10px;
+}
+
+#footer .footer-main-stuff .footer-links {
+    width:511px;
+    height: 143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-main-stuff .footer-links .footer-link h3 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    text-align: left;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#footer .footer-main-stuff .footer-links .footer-link li {
+    margin-top: 15px;
+}
+
+#footer .footer-main-stuff .footer-links .footer-link li a {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    text-align: left;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+#footer .footer-copyright {
+    width: 1110px;
+    height: 95px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#footer .footer-copyright p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.06px;
+    text-align: left;
+    color: #BDBDBD;
+}
